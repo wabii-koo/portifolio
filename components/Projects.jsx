@@ -27,30 +27,7 @@ export default function Projects() {
       tech: ['React', 'Firebase', 'Redux', 'Material UI'],
       link: '#'
     },
-    {
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with location search, forecasts, and interactive maps.',
-      tech: ['React', 'OpenWeather API', 'Tailwind CSS', 'Axios'],
-      link: '#'
-    },
-    {
-      title: 'Social Media Analytics',
-      description: 'Analytics dashboard for tracking social media metrics and performance insights.',
-      tech: ['Next.js', 'Chart.js', 'PostgreSQL', 'Node.js'],
-      link: '#'
-    },
-    {
-      title: 'Blog Platform',
-      description: 'Modern blogging platform with markdown support, comments, and social sharing.',
-      tech: ['Next.js', 'MDX', 'Contentful', 'Vercel'],
-      link: '#'
-    },
-    {
-      title: 'Video Streaming Service',
-      description: 'Video hosting and streaming platform with user authentication and content management.',
-      tech: ['React', 'Node.js', 'HLS', 'AWS S3'],
-      link: '#'
-    }
+    
   ];
 
   return (
