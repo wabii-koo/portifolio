@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-slate-900 text-white shadow-lg z-50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-bold text-blue-400">Kuma</div>
+          <div className="text-2xl font-bold text-blue-400">WELEBE</div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
