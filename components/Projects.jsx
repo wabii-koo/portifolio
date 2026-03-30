@@ -14,19 +14,6 @@ export default function Projects() {
       link: '/projects/task-management',
       image: '/taskmanagement.png'
     },
-    {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with product catalog, shopping cart, and payment integration.',
-      tech: ['Next.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      link: '#',
-      image: '/ecommerce.png'
-    },
-    {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates and team workspace features.',
-      tech: ['React', 'Firebase', 'Redux', 'Material UI'],
-      link: '#'
-    },
     
   ];
 
