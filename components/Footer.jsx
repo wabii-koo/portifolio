@@ -104,19 +104,6 @@ export default function Footer() {
                 </svg>
               </a>
 
-              {/* Twitter */}
-              <a
-                href="https://twitter.com/welebe_kebede"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-gray-400 hover:text-white hover:border-white/20 transition-all duration-300"
-                aria-label="X / Twitter"
-              >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
-              </a>
-
               {/* Email */}
               <a
                 href="mailto:webiikoo@gmail.com"
