@@ -53,7 +53,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#a78bfa] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#a78bfa]"></span>
             </span>
-            Available for freelance &amp; full-time roles
+            Available for Remote, Hybrid, Freelance &amp; Full-time roles
           </div>
 
           {/* Greeting */}
@@ -170,7 +170,7 @@ export default function Hero() {
             <div className="border-t border-white/10 mt-4 pt-3 font-mono text-[10px] text-gray-400 flex justify-between items-center">
               <span className="flex items-center gap-1.5 text-emerald-400">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
-                Available for Roles
+                Available: Remote / Hybrid / Full-time
               </span>
             </div>
           </div>
