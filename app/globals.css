@@ -121,25 +121,31 @@ body {
 /* Main Card Containers (Projects, Skills, About, Contact) */
 [data-theme="light"] .bg-\[\#0f0f11\]\/40,
 [data-theme="light"] .bg-\[\#0f0f11\]\/30,
+[data-theme="light"] .bg-\[\#0f0f11\]\/70,
 [data-theme="light"] .bg-\[\#0f0f11\]\/80,
 [data-theme="light"] .bg-\[\#0f0f11\]\/90,
-[data-theme="light"] .bg-\[\#0f0f11\] {
+[data-theme="light"] .bg-\[\#0f0f11\],
+[data-theme="light"] .bg-\[\#0f0f15\]\/70,
+[data-theme="light"] .bg-\[\#0f0f15\] {
   background-color: #FFFFFF !important;
-  border-color: rgba(245, 158, 11, 0.22) !important;
+  border-color: rgba(245, 158, 11, 0.25) !important;
   box-shadow: 
-    0 10px 30px -8px rgba(245, 158, 11, 0.12),
+    0 10px 30px -8px rgba(245, 158, 11, 0.14),
     0 4px 12px -2px rgba(31, 41, 55, 0.04) !important;
 }
 
 /* Card hover effect in light mode */
 [data-theme="light"] .bg-\[\#0f0f11\]\/40:hover,
 [data-theme="light"] .bg-\[\#0f0f11\]\/30:hover,
+[data-theme="light"] .bg-\[\#0f0f11\]\/70:hover,
 [data-theme="light"] .bg-\[\#0f0f11\]\/80:hover,
 [data-theme="light"] .bg-\[\#0f0f11\]\/90:hover,
-[data-theme="light"] .bg-\[\#0f0f11\]:hover {
-  border-color: rgba(245, 158, 11, 0.50) !important;
+[data-theme="light"] .bg-\[\#0f0f11\]:hover,
+[data-theme="light"] .bg-\[\#0f0f15\]\/70:hover,
+[data-theme="light"] .bg-\[\#0f0f15\]:hover {
+  border-color: rgba(245, 158, 11, 0.55) !important;
   box-shadow: 
-    0 18px 36px -10px rgba(245, 158, 11, 0.24),
+    0 18px 36px -10px rgba(245, 158, 11, 0.25),
     0 6px 16px -4px rgba(31, 41, 55, 0.08) !important;
 }
 

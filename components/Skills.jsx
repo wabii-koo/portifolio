@@ -91,16 +91,7 @@ export default function Skills() {
           {filteredSkills.map((skill) => (
             <div
               key={skill.name}
-              className="group relative p-5 rounded-2xl bg-[#0f0f15]/70 border border-white/10 backdrop-blur-md flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:border-white/20 cursor-default"
-              style={{ boxShadow: '0 4px 20px rgba(0,0,0,0.5)' }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.boxShadow = `0 12px 30px ${skill.glow}`;
-                e.currentTarget.style.borderColor = skill.color + '40';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.5)';
-                e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
-              }}
+              className="group relative p-5 rounded-2xl bg-[#0f0f11]/70 border border-white/10 backdrop-blur-md flex flex-col items-center justify-between text-center transition-all duration-300 hover:-translate-y-2 hover:border-[#a78bfa]/40 hover:shadow-lg cursor-default"
             >
               {/* Accent dot */}
               <div
