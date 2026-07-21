@@ -97,7 +97,7 @@ export default function About() {
           
           {/* Left Column: Clean Rounded Photo Frame & Download CV */}
           <div className="lg:col-span-5 flex flex-col items-center gap-6">
-            <div className="relative w-full max-w-[380px] aspect-[4/5] rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#0f0f11] group">
+            <div className="relative w-full max-w-[380px] aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-[#0f0f11] group">
               <img
                 src="/welebe.png"
                 alt="Welebe Kebede"

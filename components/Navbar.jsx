@@ -76,7 +76,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition group">
-          <div className="w-9 h-9 rounded-full overflow-hidden border border-[#a78bfa]/40 p-0.5 bg-[#0f0f11] shadow-md group-hover:border-[#a78bfa] transition duration-300">
+          <div className="w-9 h-9 rounded-full overflow-hidden bg-[#0f0f11] shadow-md transition duration-300">
             <img 
               src="/welebe.png" 
               alt="Welebe Kebede" 
