@@ -39,7 +39,7 @@ export default function IrreechaProjectPage() {
               <div className="bg-white rounded-2xl shadow-2xl p-8 transform hover:scale-105 transition-transform duration-300">
                 <div className="text-center">
                   <div className="w-24 h-24 bg-gradient-to-r from-green-400 to-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl">🌿</span>
+                    <span className="text-3xl">Ã°Å¸Å’Â¿</span>
                   </div>
                   <h3 className="text-2xl font-bold mb-2">Cultural Preservation</h3>
                   <p className="text-slate-600">Bridging ancient traditions with modern technology</p>
@@ -52,10 +52,10 @@ export default function IrreechaProjectPage() {
               <h2 className="text-4xl font-bold mb-8 text-center text-slate-900">Technologies & Tools</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  { name: 'Next.js', icon: '⚛️' },
-                  { name: 'Tailwind CSS', icon: '🎨' },
-                  { name: 'Vercel', icon: '▲' },
-                  { name: 'React', icon: '⚛️' }
+                  { name: 'Next.js', icon: 'Ã¢Å¡â€ºÃ¯Â¸Â' },
+                  { name: 'Tailwind CSS', icon: 'Ã°Å¸Å½Â¨' },
+                  { name: 'Vercel', icon: 'Ã¢â€“Â²' },
+                  { name: 'React', icon: 'Ã¢Å¡â€ºÃ¯Â¸Â' }
                 ].map((tech) => (
                   <div key={tech.name} className="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow">
                     <div className="text-4xl mb-3">{tech.icon}</div>
@@ -73,32 +73,32 @@ export default function IrreechaProjectPage() {
                   {
                     title: 'Virtual Tours',
                     description: 'Immersive 3D experiences of sacred Irreecha sites',
-                    icon: '🏛️'
+                    icon: 'Ã°Å¸Ââ€ºÃ¯Â¸Â'
                   },
                   {
                     title: 'Heritage Gallery',
                     description: 'Curated collection of historical images and stories',
-                    icon: '🖼️'
+                    icon: 'Ã°Å¸â€“Â¼Ã¯Â¸Â'
                   },
                   {
                     title: 'Multilingual Support',
                     description: 'Content available in multiple languages including Afaan Oromoo',
-                    icon: '🌍'
+                    icon: 'Ã°Å¸Å’Â'
                   },
                   {
                     title: 'Mobile Optimized',
                     description: 'Responsive design for seamless experience across devices',
-                    icon: '📱'
+                    icon: 'Ã°Å¸â€œÂ±'
                   },
                   {
                     title: 'Rich Media',
                     description: 'High-quality videos, audio guides, and interactive elements',
-                    icon: '🎥'
+                    icon: 'Ã°Å¸Å½Â¥'
                   },
                   {
                     title: 'Global Reach',
                     description: 'Connecting Oromo diaspora worldwide',
-                    icon: '🌐'
+                    icon: 'Ã°Å¸Å’Â'
                   }
                 ].map((feature, index) => (
                   <div key={index} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
@@ -123,7 +123,7 @@ export default function IrreechaProjectPage() {
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-green-600 to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-green-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                  🌐 View Live Site
+                  Ã°Å¸Å’Â View Live Site
                 </a>
                 <a
                   href="https://github.com/wabii-koo/irreacha-site"
@@ -131,7 +131,7 @@ export default function IrreechaProjectPage() {
                   rel="noopener noreferrer"
                   className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                  💻 View Source Code
+                  Ã°Å¸â€™Â» View Source Code
                 </a>
               </div>
             </div>

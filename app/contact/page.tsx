@@ -5,14 +5,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact - Welebe Kebede",
-  description: "Get in touch with me for collaborations and opportunities.",
+  description: "Get in touch with Welebe Kebede for projects, contracts, and software engineering opportunities.",
 };
 
 export default function ContactPage() {
   return (
-    <div className="bg-slate-50 text-slate-900">
+    <div className="relative bg-[#050507] text-[#f5f5f7]">
       <Navbar />
-      <main className="pt-16">
+      <main className="pt-20">
         <Contact />
       </main>
       <Footer />

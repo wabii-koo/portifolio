@@ -5,14 +5,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About - Welebe Kebede",
-  description: "Learn more about me, my background, and my journey as a full stack developer.",
+  description: "Learn more about my professional background, education, and development journey.",
 };
 
 export default function AboutPage() {
   return (
-    <div className="bg-slate-50 text-slate-900">
+    <div className="relative bg-[#050507] text-[#f5f5f7]">
       <Navbar />
-      <main className="pt-16">
+      <main className="pt-20">
         <About />
       </main>
       <Footer />
