@@ -59,6 +59,13 @@ export default function About() {
       institution: 'CodSoft • Remote',
       period: 'Nov 2024 – Dec 2024',
       details: 'Created interactive web and desktop applications applying Java OOP principles and responsive UI design.'
+    },
+    {
+      title: 'APP Tester | Quality Assurance',
+      institution: 'App Testing Project',
+      period: 'Sep 2026 - Present',
+      details: 'Tested mobile app features including audio/video calls and messaging, identified functional and UI issues, documented bugs with reproduction steps, and provided feedback to improve app quality and user experience.'
+        
     }
   ];
 
