@@ -3,14 +3,14 @@
 import { useState, useEffect } from 'react';
 
 const techOrbit = [
-  { name: 'React',      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg',          color: '#61dafb', glow: 'rgba(97,218,251,0.4)', pos: 'top-[4%] left-[10%]', animDelay: '0s' },
-  { name: 'Next.js',    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',        color: '#ffffff', glow: 'rgba(255,255,255,0.3)', pos: 'top-[0%] right-[12%]', animDelay: '0.7s' },
-  { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg',color: '#3178c6', glow: 'rgba(49,120,198,0.4)', pos: 'top-[36%] left-[-4%]', animDelay: '1.4s' },
-  { name: 'Node.js',    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg',        color: '#68a063', glow: 'rgba(104,160,99,0.4)', pos: 'top-[34%] right-[-4%]', animDelay: '0.4s' },
-  { name: 'Laravel',    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg',      color: '#ff2d20', glow: 'rgba(255,45,32,0.4)', pos: 'bottom-[22%] left-[0%]', animDelay: '1.8s' },
-  { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg',color: '#336791', glow: 'rgba(51,103,145,0.4)', pos: 'bottom-[12%] right-[4%]', animDelay: '0.9s' },
-  { name: 'Tailwind',   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',color:'#38bdf8', glow: 'rgba(56,189,248,0.4)', pos: 'bottom-[4%] left-[18%]', animDelay: '2.1s' },
-  { name: 'Supabase',   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg',    color: '#3ecf8e', glow: 'rgba(62,207,142,0.4)', pos: 'top-[60%] left-[-2%]', animDelay: '1.2s' },
+  { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg', color: '#61dafb', glow: 'rgba(97,218,251,0.4)', pos: 'top-[4%] left-[10%]', animDelay: '0s' },
+  { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg', color: '#ffffff', glow: 'rgba(255,255,255,0.3)', pos: 'top-[0%] right-[12%]', animDelay: '0.7s' },
+  { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg', color: '#3178c6', glow: 'rgba(49,120,198,0.4)', pos: 'top-[36%] left-[-4%]', animDelay: '1.4s' },
+  { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg', color: '#68a063', glow: 'rgba(104,160,99,0.4)', pos: 'top-[34%] right-[-4%]', animDelay: '0.4s' },
+  { name: 'Laravel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg', color: '#ff2d20', glow: 'rgba(255,45,32,0.4)', pos: 'bottom-[22%] left-[0%]', animDelay: '1.8s' },
+  { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg', color: '#336791', glow: 'rgba(51,103,145,0.4)', pos: 'bottom-[12%] right-[4%]', animDelay: '0.9s' },
+  { name: 'Tailwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg', color: '#38bdf8', glow: 'rgba(56,189,248,0.4)', pos: 'bottom-[4%] left-[18%]', animDelay: '2.1s' },
+  { name: 'Supabase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg', color: '#3ecf8e', glow: 'rgba(62,207,142,0.4)', pos: 'top-[60%] left-[-2%]', animDelay: '1.2s' },
 ];
 
 export default function Hero() {
@@ -97,8 +97,8 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/welebe-cv.pdf"
-              download="Welebe_Kebede_CV.pdf"
+              href="/Welebe Kebede SobokaCV.pdf"
+              download="Welebe Kebede SobokaCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3.5 border border-white/10 hover:border-[#a78bfa]/30 hover:bg-[#a78bfa]/5 text-gray-300 hover:text-[#a78bfa] rounded-full font-semibold transition-all duration-300 hover:scale-105 text-center text-sm flex items-center justify-center gap-2"
@@ -143,7 +143,7 @@ export default function Hero() {
                 <span>02</span>
                 <span className="text-gray-400">// AAU CS Graduate</span>
               </div>
-              
+
               {/* Dynamic Code Line */}
               <div className="p-3 rounded-xl bg-[#050507]/90 border border-white/10 font-mono text-xs leading-relaxed min-h-[52px] flex items-center">
                 <span className="text-[#a78bfa] font-bold mr-2">&gt;</span>
