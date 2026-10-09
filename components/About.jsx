@@ -102,7 +102,7 @@ export default function About() {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
-          
+
           {/* Left Column: Clean Rounded Photo Frame & Download CV */}
           <div className="lg:col-span-5 flex flex-col items-center gap-6">
             <div className="relative w-full max-w-[380px] aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-[#0f0f11] group">
@@ -113,10 +113,10 @@ export default function About() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#050507]/40 via-transparent to-transparent"></div>
             </div>
-            
+
             <a
-              href="/welebe-cv.pdf"
-              download="Welebe_Kebede_CV.pdf"
+              href="/Welebe Kebede SobokaCV.pdf"
+              download="Welebe Kebede SobokaCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-8 py-3.5 bg-white/5 border border-white/10 hover:border-[#a78bfa]/30 hover:bg-[#a78bfa]/5 text-white hover:text-[#a78bfa] rounded-full text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-[#a78bfa]/5 group"
@@ -130,7 +130,7 @@ export default function About() {
 
           {/* Right Column: Heading + Tabs + Content Card */}
           <div className="lg:col-span-7 space-y-6">
-            
+
             {/* Title & Underline */}
             <div>
               <span className="text-xs uppercase tracking-widest text-[#a78bfa] font-bold block mb-2">ABOUT ME</span>
@@ -138,7 +138,7 @@ export default function About() {
                 Building Scalable Web Systems &amp; Modern Digital Experiences
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-[#a78bfa] to-transparent rounded-full mb-6"></div>
-              
+
               <p className="text-base text-gray-300 leading-relaxed max-w-2xl font-normal">
                 Addis Ababa University CS graduate and Full-Stack Engineer focused on craft, clean user interfaces, reliable backends, and products that deliver real value.
               </p>
@@ -148,31 +148,28 @@ export default function About() {
             <div className="flex gap-3 pt-2">
               <button
                 onClick={() => setActiveTab('education')}
-                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${
-                  activeTab === 'education'
+                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${activeTab === 'education'
                     ? 'bg-[#a78bfa] text-[#050507] shadow-md shadow-[#a78bfa]/20'
                     : 'bg-white/5 border border-white/10 text-gray-400 hover:text-white'
-                }`}
+                  }`}
               >
                 Education
               </button>
               <button
                 onClick={() => setActiveTab('certificates')}
-                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${
-                  activeTab === 'certificates'
+                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${activeTab === 'certificates'
                     ? 'bg-[#a78bfa] text-[#050507] shadow-md shadow-[#a78bfa]/20'
                     : 'bg-white/5 border border-white/10 text-gray-400 hover:text-white'
-                }`}
+                  }`}
               >
                 Certificates
               </button>
               <button
                 onClick={() => setActiveTab('experience')}
-                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${
-                  activeTab === 'experience'
+                className={`px-6 py-2 rounded-full text-xs font-semibold transition-all duration-300 ${activeTab === 'experience'
                     ? 'bg-[#a78bfa] text-[#050507] shadow-md shadow-[#a78bfa]/20'
                     : 'bg-white/5 border border-white/10 text-gray-400 hover:text-white'
-                }`}
+                  }`}
               >
                 Experience
               </button>
